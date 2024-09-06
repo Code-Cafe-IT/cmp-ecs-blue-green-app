@@ -5,7 +5,7 @@ Resources:
     Properties:
       TaskDefinition: "arn:aws:ecs:us-east-1:ACCOUNT-NUMBER:task-definition/duc-ecr-blue-green-app:1"
       LoadBalancerInfo:
-        ContainerName: "d-ecr-blue-green-app"
+        ContainerName: "duc-ecr-blue-green-app"
         ContainerPort: 80
       PlatformVersion: "LATEST"
 
